@@ -1,8 +1,4 @@
-# config.py
 class Config:
     SECRET_KEY = 'clave_secreta'
-    MYSQL_HOST = '127.0.0.1'  # o 'localhost'
-    MYSQL_USER = 'root'
-    MYSQL_PASSWORD = '12345'
-    MYSQL_DB = 'gamingza'
-
+    SQLALCHEMY_DATABASE_URI = 'postgresql://gamingza_hxf7_user:kBRts7kWvInlDHomyR6DN59VWhuLlkKC@dpg-d0rsn524d50c73b1955g-a.oregon-postgres.render.com/gamingza_hxf7'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
